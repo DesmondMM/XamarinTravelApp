@@ -8,16 +8,19 @@
         VerticalOptions="Center"
         Margin="20, 0">
         <Entry
+            x:Name="emailEntry"
             Placeholder="Email address"
             Keyboard="Email"/>
         <Entry
+            x:Name="passwordEntry"
             Placeholder="Password"
             IsPassword="True"/>
         <Button Text="Log in"
                 x:Name="LoginButton"
                 Clicked="LoginButton_Clicked"
                 BackgroundColor="DodgerBlue"
-                TextColor="White"/>
+                TextColor="White"
+                Margin="0, 50, 0, 0"/>
     </StackLayout>
 
 </ContentPage>
