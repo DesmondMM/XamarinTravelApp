@@ -5,10 +5,9 @@
              x:Class="TravelRecordApp.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Entry />
+        <Entry />
+        <Button Text="Log in" Clicked="Button_Clicked" />
     </StackLayout>
 
 </ContentPage>
