@@ -19,7 +19,7 @@
             IsPassword="True"
             Text="pass"
              TextColor="{StaticResource blueColor}"/>
-        <Button Text="Log in"
+        <Button Style="{StaticResource normalButton}" Text="Log in"
                 x:Name="LoginButton"
                 Clicked="LoginButton_Clicked"
                 Margin="0, 50, 0, 0"/>
