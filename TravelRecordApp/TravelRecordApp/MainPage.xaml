@@ -4,10 +4,16 @@
              xmlns:local="clr-namespace:TravelRecordApp"
              x:Class="TravelRecordApp.MainPage">
 
-    <StackLayout>
-        <Entry />
-        <Entry />
-        <Button Text="Log in" Clicked="Button_Clicked" />
+    <StackLayout VerticalOptions="Center">
+        <Entry
+            Placeholder="Email address"
+            Keyboard="Email"/>
+        <Entry
+            Placeholder="Password"
+            IsPassword="True"/>
+        <Button Text="Log in"
+                x:Name="LoginButton"
+                Clicked="LoginButton_Clicked"/>
     </StackLayout>
 
 </ContentPage>
