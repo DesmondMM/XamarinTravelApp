@@ -10,15 +10,19 @@
         <Entry
             x:Name="emailEntry"
             Placeholder="Email address"
-            Keyboard="Email"/>
+            Keyboard="Email"
+            TextColor="{StaticResource blueColor}"
+            Text="Test"/>
         <Entry
             x:Name="passwordEntry"
             Placeholder="Password"
-            IsPassword="True"/>
+            IsPassword="True"
+            Text="pass"
+             TextColor="{StaticResource blueColor}"/>
         <Button Text="Log in"
                 x:Name="LoginButton"
                 Clicked="LoginButton_Clicked"
-                BackgroundColor="DodgerBlue"
+                BackgroundColor="{StaticResource blueColor}"
                 TextColor="White"
                 Margin="0, 50, 0, 0"/>
     </StackLayout>
