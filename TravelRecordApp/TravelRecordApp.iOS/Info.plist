@@ -34,5 +34,7 @@
 	<string>TravelRecordApp</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need access to your location to improve you experience</string>
 </dict>
 </plist>
