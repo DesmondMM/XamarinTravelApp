@@ -8,7 +8,9 @@
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="TravelRecordApp.Android"></application>
-<meta-data android:name="com.google.android.geo.API_KEY" android:value="
-AIzaSyAnRSoSDA--GUjMmlDUn2ImqxcKCwPtbYc" />
+	<application android:label="TravelRecordApp.Android">
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyAj-Df3di2nQgNy6T_zRjaLDaOIjcNPqU4"/>
+  </application>
 </manifest>
