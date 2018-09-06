@@ -7,8 +7,8 @@
         <ToolbarItem Text="Add"
                      Clicked="ToolbarItem_Clicked"/>
     </TabbedPage.ToolbarItems>
-    
-    <local:HistoryPage Title="PROFILE"/>
+
+    <local:HistoryPage Title="HISTORY"/>
     <local:MapPage Title="Map"/>
-    <local:ProfilePage Title="HISTORY"/>
+    <local:ProfilePage Title="PROFILE"/>
 </TabbedPage>

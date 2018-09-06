@@ -24,7 +24,13 @@ namespace TravelRecordApp
 
             var locator = CrossGeolocator.Current;
             locator.PositionChanged += Locator_PositionChanged;
-            await locator.StartListeningAsync(new TimeSpan(0), 100);
+            try
+            {
+                await locator.StartListeningAsync(new TimeSpan(20), 100);
+            } catch
+            {
+                //nothing
+            }
 
             var position = await locator.GetPositionAsync();
 
