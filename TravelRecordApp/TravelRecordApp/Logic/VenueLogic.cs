@@ -21,7 +21,9 @@ namespace TravelRecordApp.Logic
                 var response = await client.GetAsync(url);
                 var json = await response.Content.ReadAsStringAsync();
 
-                var venueRoot = JsonConvert.DeserializeObject<VenueRoot>(json)
+                var venueRoot = JsonConvert.DeserializeObject<VenueRoot>(json);
+
+                venues = venueRoot.response.venues as List<Venue>;
 ;            }
 
             return venues;
